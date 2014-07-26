@@ -1,6 +1,6 @@
 #Codebook.md
 This codebook explains meaning of variables in tidy data, produced by my script. 
-##Copypasted part
+#Copypasted part
 Feature Selection 
 =================
 
@@ -11,7 +11,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for each pattern:  '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-##Original part
+#Original part
 As described in Readme.md, I've selected only mean and std values from raw data. Then i averaged all the data by each Activity (first table in list of tidy data), and also by each Subject of tests(second table). All two table got the same colnames - variables, and i dont change names, described in features.txt original file, but now all of them means AVERAGED values for selected rowname-variable.
 First, let me put here common part for two tables - colnames:
 * tBodyAcc-mean()-X
